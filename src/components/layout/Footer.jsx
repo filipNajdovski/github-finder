@@ -6,7 +6,7 @@ const footerYear = new Date().getFullYear()
 
 function Footer() {
   return (
-    <footer className='footer p-10 bg-grey-700 text-primary-content footer-center text-white'>
+    <footer className='footer p-10 bg-grey-700 footer-center text-white'>
         <img src={footerSvg} alt="footer svg" />
         <p>Copyright &copy; {footerYear}</p>
     </footer>
